@@ -27,7 +27,7 @@ To help users get started, this distribution includes example programs demonstra
 2. Download VME Interface Libraries & User Code Examples
 
     ```bash
-    git clone <insert git repository> vme_interface_library
+    git clone https://github.com/highland-technology-inc/vme_user_library vme_interface_library
     ```
 
 ## Building VME Interface Libraries & User Code Examples
