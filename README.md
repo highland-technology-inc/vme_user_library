@@ -2,7 +2,7 @@
 
 ## Overview
 
-The vme_interface_library provides access to the capabilities of the Highland Technology VME boards. The primary components of this repository are the board-level interface libraries, which enable direct interaction with the hardware.
+The vme_user_library provides access to the capabilities of the Highland Technology VME boards. The primary components of this repository are the board-level interface libraries, which enable direct interaction with the hardware.
 
 In this release, the supported Interface Libraries are
 
@@ -27,13 +27,13 @@ To help users get started, this distribution includes example programs demonstra
 2. Download VME Interface Libraries & User Code Examples
 
     ```bash
-    git clone https://github.com/highland-technology-inc/vme_user_library vme_interface_library
+    git clone https://github.com/highland-technology-inc/vme_user_library vme_user_library
     ```
 
 ## Building VME Interface Libraries & User Code Examples
 
 ```bash
-cd vme_interface_library
+cd vme_user_library
 make clean all
 ```
 
@@ -49,7 +49,7 @@ where `<version>` is one of `{1, 11, 2, 21}`.
 
 ## Example User Code
 
-The vme_interface_library/apps directory contains example source files, including:
+The vme_user_library/apps directory contains example source files, including:
 
 - run_v210.c: Demonstrates how to use the V210 interface library to interact with the V210 VME Relay Module.
 - run_v230.c: Demonstrates how to use the V230 interface library to interact with the V230 Analog Input Module.
